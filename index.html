@@ -1,23 +1,49 @@
-!DOCTYPE HTML
-<html>
-  <style>
-  .parallax {
-    /* The image used */
-    background-image: url("img_parallax.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  </style>
+<!DOCTYPE HTML>
+<html lang="en-us">
+  <head>
+	  <style>
+		  .parallax {
+			/* Set a specific height */
+			min-height: 500px;
+		  
+			/* Create the parallax scrolling effect */
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		  }
+		  #prl1 {
+			background-image: url("https://i.ibb.co/pZMYg7W/vsadsa.jpg");
+		  }
+		  #prl2 {
+			background-image: url("https://www.w3schools.com/howto/img_parallax2.jpg");
+		  }
+		  #prl3 {
+			background-image: url("https://www.w3schools.com/howto/img_parallax3.jpg");
+		  }
+		  #prl4 {
+			background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+		  }
+	  </style>
+  </head>
   <body>
     <!-- Container element -->
-    <div class="parallax"></div>
+    <div class="parallax" id="prl1"></div>
+	<div class="textbox">
+		<p>Hello</p>
+	</div>
+	<div class="parallax" id="prl2"></div>
+	<div class="textbox">
+		<p>Wazzzuuuuppp!</p>
+	</div>
+	<div class="parallax" id="prl3"></div>
+	<div class="textbox">
+		<p>Contact us eh</p>
+	</div>
+	<div class="parallax" id="prl4"></div>
+	<div class="textbox">
+		<p>Good bye</p>
+	</div>
   </body>
   <script>
     console.log("Hello world from JS");
