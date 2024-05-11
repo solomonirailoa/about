@@ -1,4 +1,4 @@
 # me
 ...myself, and I.
 
-https://solomonirailoa.github.io/
+https://solomonirailoa.github.io/about
